@@ -1,0 +1,49 @@
+
+@keyframes grow{
+    from{
+      font-size:20px;
+    }
+    to{
+      font-size: 50px;
+    }
+  
+  }
+  h1{
+    background-color:rgb(133, 147, 226);
+    opacity: 70%;
+    animation-name: grow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+  
+  body{
+      background-color: rgb(40, 6, 102);
+      text-align: center;
+      
+        background-image: url(bimage/mill.jpg);
+        background-size: cover;
+        opacity: 70%;
+   }
+      
+  
+  div{
+    display: none;
+  
+  }
+  
+  .butt{
+    
+   padding: 10px 20px 10px 20px;
+   margin: 10px 20px 10px 20px;
+     
+    
+  }
+  .int{
+    text-emphasis: color;
+  }
+  p{
+    background-color: rgb(133, 147, 226);
+    height: 200px;
+  }
+  
