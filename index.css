@@ -18,7 +18,7 @@
   }
   
   body{
-      background-color: rgb(141, 119, 182);
+      
       text-align: center;
       
         background-image: url(photo.jpg);
@@ -45,5 +45,8 @@
   p{
     background-color:rgb(43, 201, 201);
     height: 200px;
+  }
+  strong{
+    border-bottom: solid;
   }
   
