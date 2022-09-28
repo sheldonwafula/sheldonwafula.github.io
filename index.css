@@ -1,0 +1,28 @@
+body{
+ 
+  color:  #1532eb;
+  align-items: center;
+  text-align: center;
+}
+#title{
+  color: #1532eb;
+  background-color: black;
+}
+#menu{
+  color:  #1532eb;
+}
+.icont{
+  background-color: #1532eb;
+}
+h1{
+  color: white;
+}
+.pa{
+  color: white;
+}
+.ppy{
+  color:  #1532eb;
+}
+#logo{
+  background-color:  #1532eb;
+}
