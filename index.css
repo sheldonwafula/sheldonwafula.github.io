@@ -7,13 +7,13 @@ body{
 }
 #title{
   color: #1532eb;
-  background-color: black;
+  
   padding: 3% 5%;
-  margin: 3% 5%;
+  
   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pik/fox.jpg);
   background-position: center;
   background-size: cover;
-  position: relative;
+
   
 }
 #menu{
