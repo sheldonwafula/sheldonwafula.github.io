@@ -1,12 +1,20 @@
+
 body{
  
-  color:  #1532eb;
+  color:  black;
   align-items: center;
   text-align: center;
 }
 #title{
   color: #1532eb;
   background-color: black;
+  padding: 3% 5%;
+  margin: 3% 5%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pik/fox.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  
 }
 #menu{
   color:  #1532eb;
@@ -16,6 +24,8 @@ body{
 }
 h1{
   color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .pa{
   color: white;
@@ -26,3 +36,65 @@ h1{
 #logo{
   background-color:  #1532eb;
 }
+.downloadbtn{
+  padding: 10% 5%;
+  margin: 10% 5%;
+}
+.downloadbtn2{
+  padding: 10% 5%;
+  margin: 10% 5%;
+}
+.btndisplay{
+  display: flex;
+  flex-direction: row;
+}
+.togo{
+  display: flex;
+  flex-direction: row;
+   
+}
+.mage{
+  padding: 10% 5%;
+}
+.info{
+  padding: 5% 10%;
+
+}
+.carousel-item{
+padding: 5% 3%;
+}
+.footer{
+  padding: 5% 4%;
+  margin: 5% 4%;
+}
+.social{
+  padding:0% 5%;
+
+}
+.about{
+  text-align: center;
+  padding: 5% 7%;
+  box-sizing: border-box;
+  background-color: #6374e4;
+  border-radius: 5%;
+  margin: 5% 3%;
+  transition: 0.5s;
+  margin: 3% 5%;
+}
+.about:hover{
+  box-shadow: #1532eb;
+  background-color: rgb(16, 115, 196);
+
+}
+  @media(max-width:700px){
+    .small{
+      display: block;
+      text-align: center;
+      align-items: center;
+      padding-top: 3%;
+      margin-top: 3%;
+      flex-direction: column;
+      margin-left: 20%;
+    }
+
+  }
