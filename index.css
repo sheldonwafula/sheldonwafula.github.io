@@ -94,7 +94,13 @@ padding: 5% 3%;
       padding-top: 3%;
       margin-top: 3%;
       flex-direction: column;
-      margin-left: 20%;
+      margin-left: 0%;
     }
 
+  }
+  .small {
+    padding: 3% 5%;
+    flex-basis: auto;
+    position: relative;
+    
   }
